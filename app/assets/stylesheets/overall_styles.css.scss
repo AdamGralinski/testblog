@@ -8,6 +8,16 @@ body {
   }
 }
 
+.comment_display{
+  margin-top:80px;
+}
+.comment_single{
+  padding:20px;
+}
+.comment_single:nth-child(even){
+  background:lightgray;
+}
+
 .sign-in, .sign-up, .edit-user {
   width: 210px;
   margin: 0 auto;
